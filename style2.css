@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.content-wrapper{
+max-width: 1256px;
+margin: 0 auto;
+padding: 0px 20px;
+}
+
+h1,
+h2{
+font-weight: 900;
+}
+/* typography */
+h1{
+color:#62B2C6;
+font-size: 120px;
+text-align: left;
+line-height: 1.6;
+text-shadow: -1px 3px 0px var(--white);
+font-family: 'Dancing Script', cursive;
+}
+h2{
+font-size: 32px;
+color: #ffffff;
+}
+h3{
+font-size: 42px;
+color: #231F20;
+font-weight: 900;
+letter-spacing: 0.5px;
+line-height: 1.2;
+}
+p{
+font-size: 16px;
+}
+/* button{
+padding: 10px 25px;
+} */
+/* start */
+.banner{
+background-image: url(./dish.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.content-wrapper{
+max-width: 1280px;
+margin: 0 auto;
+padding: 0px 20px; 
+}
+
+.banner1{
+
+padding: 184px 0px 130px 0px;
+}
+
+.banner1 .b2 {
+color:#62B2C6;
+font-size: 120px;
+text-align: left;
+line-height: 1.6;
+text-shadow: -1px 3px 0px var(--white);
+font-family: 'Dancing Script', cursive;
+
+
+}
+.banner1 .b3 button {
+
+padding: 11.5px 55.4px;
+color: #C15D26;
+font-size: 16px;
+}
+/* end */
+.align-center{
+text-align: center;
+}
+.para {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+.txt-1{
+    margin: 50px 0px;
+    font-size: 42px;
+    color: #231F20;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+.main-section {
+max-width: 830px;
+margin: 0 auto;
+}
+
+.p1 {
+flex-basis: 41%;
+margin-right: 15%;
+}
+.p1:last-child {
+margin-right: 0%;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #231F20;
+    line-height: 1.8;
+    letter-spacing: .5px;
+}
+a{
+    font-size: 25px;
+    color: #C15D26;
+    text-align: left;
+    font-weight: 900;
+    line-height: 1.6
+}
+
+
+@media (min-width :768px) and (max-width:1280px){
+    .banner1{
+        padding: 184px 0px 130px 80px;
+    }
+    }
+
+    
+
+/*  */
+@media(min-width: 768px )and (max-width:1024px){
+h1{
+    font-size: 40px;
+}
+.banner1{
+    padding: 120px 0px 120px 0px;
+}
+.section-padding{
+padding: 80px 0px;
+}
+.para .p1:nth-child(2n+2) {
+margin-right: 0px;
+}
+.p1 {
+flex-basis: 47%;
+margin-right: 6%;
+margin-bottom: 25px;
+}
+}
+/*  */
+@media(max-width: 767px) and (min-width:320px){
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 20px;
+}
+.banner1{
+    padding: 80px 0px;
+}
+.banner1 .b3 button {
+    padding: 10px 20px;
+}
+p{
+    font-size: 16px;
+}
+
+.section-padding{
+padding: 40px 0px;
+}
+.p1 {
+flex-basis: 100%;
+margin-bottom: 25px;
+}
+}
